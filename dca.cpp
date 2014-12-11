@@ -22,7 +22,7 @@ int main() {
 	mayor = num2;
     }
 
-    cout << "¿cual será el numero mayor? (1 o 2)" << endl
+    cout << "¿cual será el numero mayor? (1 o 2)" << endl;
     cin >> pred;
 
  switch(pred)
