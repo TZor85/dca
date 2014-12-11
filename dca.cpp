@@ -40,6 +40,18 @@ int main() {
    		}
 	break;
     }
+
+    if(acertado)
+    {
+	cout << "Enhorabuena, ha acertado el mayor!! es el numero: " << mayor << endl;
+
+    }
+    else
+    {
+	cout << "OOOHHHH!!! ha fallado, el numero mayor es: " << mayor << endl;
+
+    }
+
    
     return 0;
 
