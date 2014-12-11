@@ -6,9 +6,11 @@ int main() {
 
     int num1,num2,resultado;
 
-    cout << "Introduzca un numero entero: " << endl;
+    cout << "Introduzca el primer numero entero: " << endl;
     cin >> num1;
-    cout << endl;
+    
+    cout << "Introduzca el segundo numero entero: " << endl;
+    cin >> num2;
 
 
 
