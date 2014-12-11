@@ -25,6 +25,21 @@ int main() {
     cout << "¿cual será el numero mayor? (1 o 2)" << endl
     cin >> pred;
 
+ switch(pred)
+    {
+	case 1: 
+		if(mayor==num1)
+		{
+			acertado=true;
+   		}
+	break;
+	case 2:
+		if(mayor==num2)
+		{
+			acertado=true;
+   		}
+	break;
+    }
    
     return 0;
 
